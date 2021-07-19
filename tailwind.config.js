@@ -2,11 +2,9 @@ module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {
-      fontFamily: {
-        sans: ["Roboto", "sans-serif"],
-        heading: ["Open Sans", "sans-serif"],
-      },
+    colors: {
+      light: "#d6deeb",
+      dark: "#011627",
     },
   },
   variants: {

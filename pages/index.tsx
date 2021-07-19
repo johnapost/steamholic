@@ -1,13 +1,12 @@
 import Head from "next/head";
 
 const Index = () => (
-  <div>
+  <div className="container w-full mx-auto pt-20">
     <Head>
       <title>Steamholic</title>
       <meta name="description" content="For Steam lovers anywhere." />
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <h1>Steamholic</h1>
     <h2>Hi there</h2>
     <p>
       Thank you for checking out my little project from 2014. Please be mindful
